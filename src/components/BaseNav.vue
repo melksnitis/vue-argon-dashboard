@@ -30,7 +30,7 @@
     </nav>
 </template>
 <script>
-  import NavbarToggleButton from "./NavbarToggleButton";
+  import NavbarToggleButton from "./NavbarToggleButton.vue";
 
   export default {
     name: "base-nav",
