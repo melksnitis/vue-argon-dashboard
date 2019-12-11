@@ -5,7 +5,7 @@
                 @click.native="linkClick"
                 class="nav-link"
                 :target="link.target"
-                :href="link.path">
+                :href='"#"+link.path'>
             <template>
                 <i :class="link.icon"></i>
                 <span class="nav-link-text">{{ link.name }}</span>
