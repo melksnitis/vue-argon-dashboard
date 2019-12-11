@@ -17,12 +17,6 @@
   export default {
     name: 'sidebar-item',
 
-    created() {
-      console.log('====================================');
-      console.log(this.link);
-      console.log('====================================');
-    },
-
     props: {
       link: {
         type: Object,
