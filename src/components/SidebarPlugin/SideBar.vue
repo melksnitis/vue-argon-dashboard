@@ -27,7 +27,7 @@
                         <a slot="title" class="nav-link" href="#" role="button">
                             <div class="media align-items-center">
                               <span class="avatar avatar-sm rounded-circle">
-                                <img alt="Image placeholder" src="img/theme/team-1-800x800.jpg">
+                                <img alt="Image placeholder" src="http://akcmv.gov.lv/wp-content/uploads/2018/06/blank-profile-picture-973460_1280-2-1024x1024.png">
                               </span>
                             </div>
                         </a>
