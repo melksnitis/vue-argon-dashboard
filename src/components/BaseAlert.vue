@@ -61,6 +61,17 @@ export default {
     dismissAlert() {
       this.visible = false;
     }
-  }
+  },
+
+  watch: {
+    visible(val) {
+      if (!val) return
+
+      var self = this
+      setTimeout(function(){
+          self.dismissAlert();
+      }, 5000);
+    }
+  },
 };
 </script>
