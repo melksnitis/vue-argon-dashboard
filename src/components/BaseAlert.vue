@@ -57,7 +57,7 @@ export default {
     var self = this
     setTimeout(function(){
         self.dismissAlert();
-    }, 5000);
+    }, 10000);
   },
 
   data() {
