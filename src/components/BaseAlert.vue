@@ -52,28 +52,23 @@ export default {
       description: "Whether alert is closes when clicking"
     }
   },
+
+  created() {
+    var self = this
+    setTimeout(function(){
+        self.dismissAlert();
+    }, 5000);
+  },
+
   data() {
     return {
       visible: true
     };
   },
+
   methods: {
     dismissAlert() {
       this.visible = false;
-    }
-  },
-
-  watch: {
-    visible(val) {
-      console.log('====================================');
-      console.log(val);
-      console.log('====================================');
-      if (!val) return;
-
-      var self = this
-      setTimeout(function(){
-          self.dismissAlert();
-      }, 5000);
     }
   },
 };
