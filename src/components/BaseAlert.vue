@@ -65,7 +65,10 @@ export default {
 
   watch: {
     visible(val) {
-      if (!val) return
+      console.log('====================================');
+      console.log(val);
+      console.log('====================================');
+      if (!val) return;
 
       var self = this
       setTimeout(function(){
