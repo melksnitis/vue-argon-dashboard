@@ -3,7 +3,7 @@ import { parseOptions } from "./optionHelpers";
 export const Charts = {
   mode: 'light',//(themeMode) ? themeMode : 'light';
   fonts: {
-    base: 'Open Sans'
+    base: 'Open Sans, sans-serif'
   },
   colors: {
     gray: {
@@ -34,6 +34,7 @@ export const Charts = {
 
 function chartOptions(Chart) {
   let { colors, mode, fonts } = Charts;
+
   // Options
   let options = {
     defaults: {
